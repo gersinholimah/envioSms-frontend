@@ -1,0 +1,158 @@
+.sidenav{
+    background-color: #063054;
+    width: 200px;
+}
+.sidenav a{
+    color:#fff;
+}
+
+.sidenav i{
+    padding-right: 10px;
+}
+
+mat-sidnav{
+    margin: 16px;
+    width: 200px;
+    border-right:none ;
+    background: #3f51b5;
+}
+
+
+.content {
+    padding: 16px;
+    background-color: #fff;;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+  }
+  
+  .header a{
+      display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .header .logo{
+  max-height: 50px;
+  }
+   
+     
+
+ 
+
+.content {
+    border-radius: 10px;
+    color: lightgray;
+}
+
+
+
+
+
+
+ mat-toolbar {
+    background: #fff;
+    color: white;
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #063054;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+         background: #f1f1f1;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .content {
+         margin-left: 15px;
+    }
+}
+
+mat-sidenav-content {
+    background-color: transparent!important;
+}
+
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+
+}
+.menu-button mat-icon {
+    margin-right: 8px;
+}
+.avatar {
+    margin-top: 16px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation {
+    margin-top: 2px;
+     margin-top: -18px;
+    font-size: 0.7rem;
+    color: #ffffff78;
+    font-weight: 100;
+}
+
+mat-divider {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: rgb(255 255 255 / 13%);
+}
+.menu_lateral {
+    display: flex!important;
+    flex-flow: row!important;
+    
+}
+.menu_lateral  i.material-icons {
+    padding-right: 4px;
+    font-size: 19px;
+}
+.menu_lateral {
+color: #fff;
+    font-weight: normal;
+    font-size: inherit;
+}
+.mat-list-single-selected-option .menu_lateral , 
+.mat-list-single-selected-option:hover .menu_lateral , 
+.mat-list-single-selected-option:focus .menu_lateral,
+
+.mat-list-single-selected-option , 
+.mat-list-single-selected-option:hover, 
+.mat-list-single-selected-option:focus {
+    background: rgb(255 255 255);
+    border-radius: 5px;
+    color: #049372;
+}
+
+
+i.material-icons {
+    color: #b3b3b3;
+}
+
+mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color.ng-star-inserted {
+    color: #063054;
+}

@@ -1,0 +1,36 @@
+<mat-card>
+    <mat-card-title>Editar agendamento</mat-card-title>
+    <form class="form">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Mensagem" [(ngModel)]="event.message" name="message"> 
+        </mat-form-field>
+        
+        <mat-form-field>
+          <input type="time" matInput placeholder="Horário" [(ngModel)]="event.hour" name="horario">
+        </mat-form-field>
+
+
+        <mat-form-field>
+       
+            <div>
+              <mat-toolbar>
+                 <input matInput  [(ngModel)]="fileAttr" readonly name="name" />
+          
+                 <button mat-flat-button color="primary">
+                  Procurar arquivo
+                </button>
+              </mat-toolbar>
+          
+               <input type="file" #fileInput id="uploadFile" [(ngModel)]="event.phone"  (change)="uploadFileEvt($event)" name="uploadFile" multiple="multiple"
+                accept=".csv" />
+            </div>
+          </mat-form-field>
+
+        
+    </form>
+    
+    <button mat-raised-button (click)="updateEvent()" class="bt_verde">Salvar</button>
+    
+    
+    <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </mat-card>

@@ -1,0 +1,51 @@
+table{
+   width: 100%; 
+}
+
+tr.mat-header-row.cdk-header-row.ng-star-inserted {
+   background: #063054;
+
+}
+
+th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+   color: #fff;
+   font-size: 14px;
+}
+tbody th.mat-header-cell, td.mat-cell, td.mat-footer-cell {
+   color: #8b8b8b;
+}
+
+.editar {
+   background: #063054;
+   color: #fff;
+   padding: 3px 9px;
+   font-weight: 100;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 12px;
+   margin-right: 2px;
+}
+.editar:hover {
+   background: #031220;
+}
+.cancelar {
+   background: #871111;
+   color: #fff;
+   padding: 3px 9px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 12px;
+}
+.cancelar:hover {
+   background: rgb(88, 10, 10);
+}
+
+@media only screen and (max-width: 700px) {
+   .editar, .cancelar {
+       padding: 7px 2px;
+       font-size: 10px;
+   }
+   td.mat-cell.cdk-cell.cdk-column-action.mat-column-action.ng-star-inserted {
+      width: 89px;
+   }
+   }

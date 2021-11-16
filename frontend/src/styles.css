@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color:#f00 ;
+}
+.bt_verde {
+    background: #049372;
+    color: #fff;
+    margin-right: 15px;
+
+}
+.bt_verde:hover {
+    background: #04745a;
+}
+mat-card-title.mat-card-title {
+    background: #063054;
+    color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+}
+ 
+ 
+mat-card-title.mat-card-title {
+    background: #eaeaea;
+    color: #063054;
+    padding: 15px;
+    border-radius: 6px;
+}
+input[type=time], input[type=text], input[type=date] {
+    font-size: 20px;
+}
+input[type=time]{
+max-width: 100px; 
+}
+a,
+a:hover,
+button,
+button:hover{    
+    -webkit-transition: all ease .4s;
+    -o-transition: all ease .4s;
+    -moz-transition: all ease .4s;
+    -ms-transition: all ease .4s;
+    transition: all ease .4s;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+form mat-toolbar.mat-toolbar.mat-toolbar-single-row {
+    max-width: 400px;
+}
+.mat-form-field-infix {
+    border-bottom: 1px solid #000;
+}

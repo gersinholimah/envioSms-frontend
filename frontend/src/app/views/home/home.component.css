@@ -1,0 +1,66 @@
+ .bg_principal{
+    background: url(../../../assets/img/avatar.png) no-repeat;
+    background-position:bottom -115px right 150px;
+    height: 395px;
+    background-size: 339px;
+    background-color: #e2ebf3;
+    border-radius: 10px;
+ }
+
+
+ h1 {
+    color: #063054;
+    font-weight: bolder!important;
+    font-size: 50px!important;
+    max-width: 373px;
+    line-height: 50px!important;
+    padding: 47px 0 0 46px!important;
+}
+
+p{
+    color: #063054;
+    font-size: 16px!important;
+    max-width: 373px;
+    padding: 0px 0 0 50px;
+    line-height: 25px!important;
+    margin-bottom: 30px;
+}
+
+.bg_principal a{
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 20px;
+    background: #049372;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 49px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bg_principal a:hover{
+    background: #04745a;
+}
+
+i.material-icons {
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 1150px) {
+    .bg_principal {
+        background-position:bottom -100px right -36px!important;
+        background-size: 280px;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .bg_principal {
+        background-position:bottom -100px right -26px!important;
+        background-size: 200px;
+    }
+    p{
+        max-width: 215px;
+    }
+}
+

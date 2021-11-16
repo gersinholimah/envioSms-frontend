@@ -1,0 +1,22 @@
+<mat-card>
+    <mat-card-title>Descartar envio</mat-card-title>
+    <form class="form">
+        <mat-form-field>
+            <input type="text" matInput placeholder="Mensagem" [(ngModel)]="event.message" name="message" disabled> 
+        </mat-form-field>
+        
+        <mat-form-field>
+            <input type="time" matInput placeholder="Horário" [(ngModel)]="event.hour" name="horario" disabled>
+        </mat-form-field>
+
+
+         
+
+        
+    </form>
+    
+    <button class="bt_vermelho" mat-raised-button (click)="deleteEvent()" color="warn">Descartar</button>
+    
+    
+    <button mat-raised-button (click)="cancel()">Cancelar</button>
+    </mat-card>

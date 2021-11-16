@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "message": "543",
+      "hour": "04:43",
+      "phone": "C:\\fakepath\\Planilha- Página1.csv",
+      "id": 19
+    },
+    {
+      "message": "fdsfdsfd",
+      "hour": "05:33",
+      "phone": "C:\\fakepath\\Planilha- Página1.csv",
+      "id": 20
+    },
+    {
+      "message": "432432",
+      "hour": "04:24",
+      "phone": "C:\\fakepath\\Planilha- Página1.csv",
+      "id": 22
+    },
+    {
+      "message": "dasdas",
+      "hour": "12:32",
+      "phone": "C:\\fakepath\\Planilha- Página1.csv",
+      "id": 23
+    }
+  ]
+}
